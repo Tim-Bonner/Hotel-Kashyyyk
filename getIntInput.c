@@ -2,7 +2,7 @@
 
 int getInput(print){
     int error=0,input=1;
-    while (error != 1 && input>0) {
+    while (error != 1 || input>0) {
         printf(print);
         fflush(stdin);
         error = scanf("%d", &input);
