@@ -9,8 +9,9 @@ int roomState(array){
     }
 }
 int main() {
+    //                null   room1   room2   room3 room4
+    int room[5][100]={{0,0}, {0,100},{0,85},{0,75},{0,50} } ;
 
-    int room1[]={0,100}, room2[]={0,85}, room3[]={0,75}, room4[]={0,50} ;
 
-    printf("Room 1 is %s and costs %d", roomState(room1[1]), room1[1]);
+    printf("Room 1 is %s and costs %d", roomState(room[1][0]), room[1][1]);
 }
