@@ -17,7 +17,7 @@ int cost(boardType)
 
 }
 
-main (){
+int main (){
 
     int boardType, boardCost=0;
     printf("Please input board type.\n");
