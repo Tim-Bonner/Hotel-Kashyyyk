@@ -12,7 +12,7 @@ Code, Compile, Run and Debug online from anywhere in world.
 
 //**** GLOBAL VARIABLE DECLERATION ****
 int roomInt[5][9]={ {0,0,0,0,0,0,0,0,0} , {0,100,0,0,0,0,0,0,0}, {1,85,0,0,0,0,0,0,0}, {0,75,0,0,0,0,0,0,0},{0,50,4,3,1,3,1,2,0}}; 
-char roomStr[5][4][100];
+char roomStr[5][4][256];
 int loop =1, arrayCollums=0; 
 int inputRm=0, r=0;
 
